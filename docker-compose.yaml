@@ -8,6 +8,5 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: pass
       MYSQL_DATABASE: gorm_test_db
-    restart: always
     ports:
       - 3316:3306
